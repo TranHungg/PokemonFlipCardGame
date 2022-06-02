@@ -1,0 +1,31 @@
+@import url("http://fonts.cdnfonts.com/css/pokemon-solid");
+body {
+  background: url("./background-pikachu-dep_.jpg");
+  background-size: cover;
+  font-family: "Pokemon Solid", sans-serif;
+  text-align: center;
+}
+#head-title {
+  color: yellow;
+  margin-top: 0;
+  margin-bottom: -10px;
+}
+#head-errors {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#board {
+  height: 532px;
+  width: 475px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: red;
+  border: 10px solid lightgrey;
+}
+
+.card {
+  height: 128px;
+  width: 90px;
+  margin: 2.5px;
+}
